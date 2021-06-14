@@ -28,7 +28,6 @@ const devCondfig = {
   components: true,
 
   buildModules: [
-    '@nuxt/typescript-build',
   ],
 
   modules: [

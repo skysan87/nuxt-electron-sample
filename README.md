@@ -1,4 +1,4 @@
-# プロジェクト構成
+## プロジェクト構成
 
 ```
 .
@@ -18,7 +18,7 @@
     └── tsconfig.json
 ```
 
-# インストール
+## インストール
 
 ```bash
 # electronフォルダ
@@ -30,7 +30,7 @@ $ cd web
 $ npm install
 ```
 
-# ビルド
+## ビルド
 
 ```bash
 # Nuxtプロジェクト開発時(webフォルダ)
@@ -58,6 +58,3 @@ $ npm run build:mac
 $ cd electron/src
 $ ln -s ../../web renderer
 ```
-
-## 参考
-https://github.com/282Haniwa/nuxt-electron-example

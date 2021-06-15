@@ -20,10 +20,7 @@ async function createWindow () {
     win.loadURL('http://localhost:3000/')
   } else {
     // production構成時
-    // await win.loadFile(path.join(__dirname, '../../dist/index.html'))
-    // TODO: エントリポイントが見つからない...
     await win.loadFile(path.resolve(__dirname, '../../dist/index.html'))
-    // await win.loadFile('index.html')
   }
 
   // win.webContents.openDevTools()

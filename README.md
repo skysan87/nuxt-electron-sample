@@ -8,8 +8,7 @@
 │   ├── node_modules  ・・・electronプロジェクトのモジュール
 │   ├── package.json
 │   └── src
-│       ├── main                  ・・・mainプロセス群
-│       └── renderer -> ../../web ・・・rendererプロセス群 - Nuxtプロジェクトへのリンク
+│       └── main                  ・・・mainプロセス群
 └── web
     ├── (Nuxtの規定フォルダ群)
     ├── node_modules  ・・・Nuxtプロジェクトのモジュール
@@ -41,20 +40,9 @@ $ npm run dev
 # nuxt biuld & generate(webフォルダ)
 $ npm run bg
 
-# nuxt generate & electron実行(electronフォルダ)
-$ npm run build:renderer
+# electron実行(electronフォルダ)
 $ npm run start
 
 # electron 実行ファイル作成(Macのみ)
-$ npm run build:renderer
 $ npm run build:mac
-```
-
-## 補足
-
-* シンボリックリンク作成
-
-```bash
-$ cd electron/src
-$ ln -s ../../web renderer
 ```
